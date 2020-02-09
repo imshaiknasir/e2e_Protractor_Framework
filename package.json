@@ -4,8 +4,25 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pretest": "tsc",
+    "test": "protractor typeScript/config/config.js",
+    "protractor": "./node-modules/protractor/built/cli.js",
+    "git": "git add * && git commit -m \"Update project\""
   },
+  "keywords": [
+    "protractor",
+    "cucumber",
+    "typescript",
+    "angular",
+    "angularjs",
+    "testing",
+    "behaviour driven development",
+    "bdd",
+    "selenium",
+    "webdriverJS",
+    "gherkin",
+    "automation testing"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/imshaiknasir/e2e_Protractor_Framework.git"
@@ -15,5 +32,21 @@
   "bugs": {
     "url": "https://github.com/imshaiknasir/e2e_Protractor_Framework/issues"
   },
-  "homepage": "https://github.com/imshaiknasir/e2e_Protractor_Framework#readme"
+  "homepage": "https://github.com/imshaiknasir/e2e_Protractor_Framework#readme",
+  "devDependencies": {
+    "cucumber": "^6.0.5",
+    "typescript": "^3.7.5",
+    "protractor": "^5.4.3",
+    "protractor-cucumber-framework": "^6.2.0",
+    "ts-node": "^8.6.2",
+    "cucumber-html-reporter": "^5.1.0",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "jasmine": "^3.5.0",
+    "@types/cucumber": "^6.0.1",
+    "@types/jasmine": "^3.5.3",
+    "@types/jasminewd2": "^2.0.8",
+    "@types/node": "^13.7.0",
+    "@types/selenium-webdriver": "^4.0.6"
+  }
 }
