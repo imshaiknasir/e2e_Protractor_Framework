@@ -7,7 +7,8 @@
     "pretest": "tsc",
     "test": "protractor typeScript/config/config.js",
     "protractor": "./node-modules/protractor/built/cli.js",
-    "git": "git add * && git commit -m \"Update project\""
+    "git": "git add * && git commit -m \"Update project\"",
+    "git-push": "git push -u origin master"
   },
   "keywords": [
     "protractor",
