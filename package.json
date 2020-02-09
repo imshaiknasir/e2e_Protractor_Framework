@@ -1,0 +1,19 @@
+{
+  "name": "protractorpracticetwo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imshaiknasir/e2e_Protractor_Framework.git"
+  },
+  "author": "imshaiknasir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imshaiknasir/e2e_Protractor_Framework/issues"
+  },
+  "homepage": "https://github.com/imshaiknasir/e2e_Protractor_Framework#readme"
+}
